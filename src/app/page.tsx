@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+  <>
 
     <div className="md:mt-8 sticky top-2 z-20">
         <header className='m-auto w-[300px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur-md bg-opacity-60'>
@@ -106,8 +106,13 @@ export default function Home() {
     </div>  
   </section>
     </div>
+    
+    
+    <footer className="flex flex-col items-center justify-center mb-3">
+      <span className="font-normal text-sm">skrodrigo © 2024</span>
+    </footer>
 
-    </>
+  </>
     
   );
 }
