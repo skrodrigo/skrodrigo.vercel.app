@@ -13,10 +13,10 @@ export default function Home() {
             <div className='flex items-center font-semibold md:space-x-8 space-x-4 text-sm justify-center '>
               <ul className="flex justify-end pr-4 space-x-4 md:space-x-8 ">
                 <li>
-                  <Link href='/contatos'>contato</Link>
+                  <Link href='/contatos'>Contato</Link>
                 </li>
                 <li>
-                  <Link href='/xp'>Xp/educação</Link>
+                  <Link href='/xp'>XP/educação</Link>
                 </li>
               </ul>
             </div>
@@ -35,10 +35,10 @@ export default function Home() {
              aprendizado para sempre entregar o melhor para meus 
              trabalhos e projetos.</p>
           <div className="mt-9 space-y-3 flex flex-col lg:flex-row lg:justify-start items-center lg:space-x-8">
-            <button className="bg-white text-black rounded-3xl text-xs font-bold px-6 py-3 w-[120px] h-[40px] lg:w-40 lg:h-14 lg:text-base">
+            <button className="bg-white text-black rounded-3xl text-xs font-bold px-6 py-3 w-[120px] h-[40px] lg:w-40 lg:h-12 lg:text-base">
               Dowload CV  
             </button> 
-            <Link href='/contatos' className="text-[#2563EB] underline text-xs lg:text-base lg:ml-8">
+            <Link href='/xp' className="text-[#2563EB] underline text-xs lg:text-base lg:ml-8">
                 Veja minha XP
             </Link>
           </div>
@@ -121,7 +121,7 @@ export default function Home() {
               </div>  
               <div className="flex gap-3 justify-center items-center">
                 <img src="./../../icons/Figma.svg" alt="" />
-                <span>Figma JS</span>
+                <span>Figma</span>
               </div>  
               <div className="flex gap-3 justify-center items-center">
                 <img src="./../../icons/Tailwind.svg" alt="" />
