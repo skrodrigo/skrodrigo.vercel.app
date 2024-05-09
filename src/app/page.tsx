@@ -48,8 +48,62 @@ export default function Home() {
 
     <div className="flex justify-center items-center mx-auto ">
       <section className="flex flex-col items-center text-center mt-24 lg:mt-40">
+        <span className="text-xl lg:text-3xl  font-light mb-16">Projetos em destaque</span>
+        <div className="lg:flex xl:space-x-14 lg:space-x-4">
+
+          <div className="bg-[#C4D365] px-3 py-3 w-[320px] h-[200px] mb-14 flex flex-col space-y-3 justify-between rounded-3xl">
+
+            <div className="flex justify-between items-center">
+              <span className="text-xl font-semibold">random-letters</span>
+              <Link href='/'>
+              <img src="./../../icons/Link.svg" alt=""/>
+              </Link>
+            </div>
+
+            <p className="text-[#272727] font-semibold text-justify">Projeto Front-end em que o usuário 
+              clica na tela e é renderizado letras
+              aleatorias de diferentes cores</p>
+            <img src="./../../icons/React.svg" alt="" width={32} height={32} className="mt-auto" />
+
+          </div>
+
+          <div className="bg-[#7565D3] px-3 py-3 w-[320px] h-[200px] mb-14 flex flex-col space-y-3 justify-between rounded-3xl">
+
+            <div className="flex justify-between items-center">
+              <span className="text-xl font-semibold">tabuada-js</span>
+              <Link href='/'>
+              <img src="./../../icons/Link.svg" alt="" />
+              </Link>
+            </div>
+
+            <p className="text-[#272727] font-semibold text-justify">Projeto em que o usuário escolhe
+            um numero e a operação matemática
+            des ejada e é imprido na tela a 
+            tabuado de sse número</p>
+            <img src="./../../icons/JavaScript.svg" width={32} height={32} alt="" />
+
+          </div>
+
+          <div className="bg-[#D36565] px-3 py-3 w-[320px] h-[200px] mb-14 flex flex-col space-y-3  justify-between rounded-3xl"> 
+
+            <div className="flex justify-between items-center">
+              <span className="text-xl font-semibold">read.me</span>
+              <Link href='/'>
+              <img src="./../../icons/Link.svg" alt="" />
+              </Link>
+            </div>
+            <p className="text-[#272727] font-semibold text-justify">minha read.me no github</p>
+            <img src="./../../icons/TXT.svg" alt="" width={32} height={32} className="" />
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <div className="flex justify-center items-center mx-auto ">
+      <section className="flex flex-col items-center text-center mt-24 lg:mt-40">
         <span className="text-xl lg:text-3xl  font-light mb-16">Algumas tecnologias que<br />
-        venho utilizando...</span>
+        venho utilizando</span>
         <div className="lg:flex xl:space-x-14 lg:space-x-12">
 
         <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
@@ -106,7 +160,6 @@ export default function Home() {
     </div>  
   </section>
     </div>
-    
     
     <footer className="flex flex-col items-center justify-center mb-3">
       <span className="font-normal text-sm">skrodrigo © 2024</span>
