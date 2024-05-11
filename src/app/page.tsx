@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Footer from "./components/footer/footer";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
   <>
 
     <div className="md:mt-8 sticky top-2 z-20">
-        <header className='m-auto w-[300px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-90'>
+        <header className='m-auto w-[300px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur md:bg-opacity-90'>
           <div className='flex md:justify-between justify-center items-center w-full h-full space-x-4'>
             <div className='flex items-center font-semibold text-sm md:ml-4 md:mr-4'>
               <Link href='/' className='text-[#2563EB] '>skrodrigo</Link>
@@ -59,19 +60,19 @@ export default function Home() {
             </span>
             <div className="flex flex-col justify-start items-start space-y-10">
               <div className="flex gap-3 justify-center items-center">
-                <img src="./../../icons/React.svg" alt="" />
+                <Image width={32} height={32}  src="./../../icons/React.svg" alt="" />
                 <span>React JS</span>
               </div>  
               <div className="flex gap-3 justify-center items-center">
-                <img src="./../../icons/Next.svg" alt="" />
+                <Image width={32} height={32}  src="./../../icons/Next.svg" alt="" />
                 <span>Next JS</span>
               </div>  
               <div className="flex gap-3 justify-center items-center">
-                <img src="./../../icons/Figma.svg" alt="" />
+                <Image width={32} height={32}  src="./../../icons/Figma.svg" alt="" />
                 <span>Figma</span>
               </div>  
               <div className="flex gap-3 justify-center items-center">
-                <img src="./../../icons/Tailwind.svg" alt="" />
+                <Image width={32} height={32}  src="./../../icons/Tailwind.svg" alt="" />
                 <span>Tailwind JS</span>
               </div>  
             </div>
@@ -83,11 +84,11 @@ export default function Home() {
         </span>
         <div className="flex flex-col justify-start items-start space-y-10">
           <div className="flex gap-3 justify-center items-center">
-            <img src="./../../icons/Typescript.svg" alt="" />
+            <Image width={32} height={32}  src="./../../icons/TypeScript.svg" alt="" />
             <span>Typescript</span>
           </div>  
           <div className="flex gap-3 justify-center items-center">
-            <img src="./../../icons/JavaScript.svg" alt="" />
+            <Image width={32} height={32}  src="./../../icons/JavaScript.svg" alt="" />
             <span>Javascript</span>
           </div>   
         </div>
@@ -95,11 +96,11 @@ export default function Home() {
 
         <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
         <span className="text-base font-light mb-10">
-         Outros 
+         Tools 
         </span>
         <div className="flex flex-col justify-start items-start space-y-10">
           <div className="flex gap-3 justify-center items-center">
-            <img src="./../../icons/Github.svg" alt="" />
+            <Image width={32} height={32}  src="./../../icons/GitHub.svg" alt="" />
             <span>Github</span>
           </div>  
         </div>
