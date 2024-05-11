@@ -5,6 +5,7 @@ import Footer from "./components/footer/footer";
 export default function Home() {
   return (
   <>
+    <div className="min-h-screen flex flex-col justify-between">
 
     <div className="md:mt-8 sticky top-2 z-20">
         <header className='m-auto w-[300px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-85'>
@@ -110,7 +111,8 @@ export default function Home() {
     </div>
 
     <Footer />
-    
+
+    </div>
   </>
     
   );
