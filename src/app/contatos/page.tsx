@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from '../components/footer/footer'
 
 const page = () => {
   return (
@@ -16,7 +17,7 @@ const page = () => {
                   <Link href='/contatos' className='text-[#2563EB] '>Contato</Link>
                 </li>
                 <li>
-                  <Link href='/xp'>XP/educação</Link>
+                  <Link href='/xp'>XP/Educação</Link>
                 </li>
               </ul>
             </div>
@@ -25,7 +26,7 @@ const page = () => {
       </div>
 
       <div className='flex flex-col items-center justify-center mt-12 space-y-8'>
-        <span className='text-6xl font-semibold'>Contatos</span>
+        <span className='text-5xl font-semibold md:text-6xl'>Contatos</span>
         <p className='text-center'>Se sinta avontade para entrar em <b>contato</b> comigo, estou disponivel em <br />
           todas as redes <b>socias</b>.  </p>
         <button className="bg-white text-black rounded-3xl text-xs font-bold px-6 py-3 w-[120px] h-[40px] lg:w-40 lg:h-12 lg:text-base">
@@ -33,7 +34,7 @@ const page = () => {
         </button> 
       </div>
 
-      <div className='md:flex md:flex-col lg:grid lg:grid-cols-2 justify-center items-center w-[320px] lg:w-[760px] mt-16 mx-auto'>
+      <div className='md:flex md:flex-col lg:grid lg:grid-cols-2 justify-center items-center w-[320px] md:w-[760px] mt-16 mx-auto'>
         
         <div className="flex flex-col items-center justify-center border-2 mb-14 border-[#232323] rounded-3xl w-[320px] px-3 py-3 space-y-2 font-semibold ">
         <span>Email</span>
@@ -57,9 +58,7 @@ const page = () => {
 
       </div>
 
-      <footer className="flex items-center justify-center mb-3 mt-auto">
-        <span className="font-normal text-sm">skrodrigo © 2024</span>
-      </footer> 
+      <Footer />
     </div>
     </>
   )
