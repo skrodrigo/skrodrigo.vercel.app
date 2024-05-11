@@ -7,7 +7,7 @@ export default function Home() {
   <>
 
     <div className="md:mt-8 sticky top-2 z-20">
-        <header className='m-auto w-[300px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur md:bg-opacity-90'>
+        <header className='m-auto w-[300px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-85'>
           <div className='flex md:justify-between justify-center items-center w-full h-full space-x-4'>
             <div className='flex items-center font-semibold text-sm md:ml-4 md:mr-4'>
               <Link href='/' className='text-[#2563EB] '>skrodrigo</Link>
