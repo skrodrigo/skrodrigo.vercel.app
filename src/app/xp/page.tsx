@@ -14,6 +14,9 @@ const page = () => {
             <div className='flex items-center font-semibold md:space-x-8 space-x-4 text-sm justify-center '>
               <ul className="flex justify-end pr-4 space-x-4 md:space-x-8 ">
                 <li>
+                  <Link href='/projetos'>Projetos</Link>
+                </li>
+                <li>
                   <Link href='/contatos'>Contato</Link>
                 </li>
                 <li>
@@ -24,11 +27,12 @@ const page = () => {
           </div>
         </header>
       </div>
+      
+      <section>
 
       <div className='flex flex-col items-center justify-center mt-12 space-y-8'>
         <span className='text-5xl font-semibold md:text-6xl'>Educação</span>
-        <p className='text-center mx-5'>Obtenha <b>informações</b> sobre minhas formações e <b>experiencias</b>
-        como <b>desenvolvedor</b>.
+        <p className='text-center mx-5'>Obtenha <b>informações</b> sobre minhas formações e <b>experiencias</b> como <b>desenvolvedor</b>.
         </p>
       </div>
 
@@ -50,6 +54,7 @@ const page = () => {
 
       </div>
 
+      </section>
       <Footer />
       
     </div>

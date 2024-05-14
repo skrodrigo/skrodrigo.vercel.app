@@ -16,6 +16,9 @@ export default function Home() {
             <div className='flex items-center font-semibold md:space-x-8 space-x-4 text-sm justify-center '>
               <ul className="flex justify-end pr-4 space-x-4 md:space-x-8 ">
                 <li>
+                  <Link href='/projetos'>Projetos</Link>
+                </li>
+                <li>
                   <Link href='/contatos'>Contato</Link>
                 </li>
                 <li>
