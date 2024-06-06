@@ -4,11 +4,10 @@ import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
-  <>
-    <div className="min-h-screen flex flex-col justify-between">
+
+  <div className="min-h-screen flex flex-col justify-between">
 
       <div className="md:mt-8 sticky top-2 z-20">
-
           <header className='m-auto w-[320px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-85'>
             
             <div className='flex justify-between items-center w-full h-full space-x-3 mx-2'>
@@ -59,67 +58,71 @@ export default function Home() {
         <section className="flex flex-col items-center text-center mt-24 lg:mt-40">
           <span className="text-xl lg:text-3xl  font-light mb-16">Algumas tecnologias que<br />
           venho utilizando</span>
-          <div className="lg:flex xl:space-x-14 lg:space-x-12">
+          <div className="lg:grid grid-cols-3 xl:gap-14 lg:gap-12">
 
-          <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
+            <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
+                <span className="text-base font-light mb-10">
+                Front-End Engineer
+                </span>
+                <div className="flex flex-col justify-start items-start space-y-10">
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/React.svg" alt="" />
+                    <span>React JS</span>
+                  </div>  
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/Next.svg" alt="" />
+                    <span>Next JS</span>
+                  </div>  
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/Figma.svg" alt="" />
+                    <span>Figma</span>
+                  </div>  
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/Tailwind.svg" alt="" />
+                    <span>Tailwind CSS</span>
+                  </div>  
+                </div>
+            </div>
+
+            <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
+                <span className="text-base font-light mb-10">
+                Back-End Engineer
+                </span>
+                <div className="flex flex-col justify-start items-start space-y-10">
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/Nest.svg" alt="" />
+                    <span>Nest JS</span>
+                  </div>  
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/Express.svg" alt="" />
+                    <span>Express JS</span>
+                  </div>  
+                  <div className="flex gap-3 justify-center items-center">
+                    <Image width={32} height={32}  src="./../../icons/Prisma.svg" alt="" />
+                    <span>Prisma</span>
+                  </div>  
+                </div>
+            </div>
+
+            <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
               <span className="text-base font-light mb-10">
-              Front-End Engineer
+              Tools 
               </span>
               <div className="flex flex-col justify-start items-start space-y-10">
                 <div className="flex gap-3 justify-center items-center">
-                  <Image width={32} height={32}  src="./../../icons/React.svg" alt="" />
-                  <span>React JS</span>
-                </div>  
-                <div className="flex gap-3 justify-center items-center">
-                  <Image width={32} height={32}  src="./../../icons/Next.svg" alt="" />
-                  <span>Next JS</span>
-                </div>  
-                <div className="flex gap-3 justify-center items-center">
-                  <Image width={32} height={32}  src="./../../icons/Figma.svg" alt="" />
-                  <span>Figma</span>
-                </div>  
-                <div className="flex gap-3 justify-center items-center">
-                  <Image width={32} height={32}  src="./../../icons/Tailwind.svg" alt="" />
-                  <span>Tailwind CSS</span>
+                  <Image width={32} height={32}  src="./../../icons/GitHub.svg" alt="" />
+                  <span>Github</span>
                 </div>  
               </div>
-          </div>
+            </div>
 
-          <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
-            <span className="text-base font-light mb-10">
-            Linguagens 
-          </span>
-          <div className="flex flex-col justify-start items-start space-y-10">
-            <div className="flex gap-3 justify-center items-center">
-              <Image width={32} height={32}  src="./../../icons/TypeScript.svg" alt="" />
-              <span>Typescript</span>
-            </div>  
-            <div className="flex gap-3 justify-center items-center">
-              <Image width={32} height={32}  src="./../../icons/JavaScript.svg" alt="" />
-              <span>Javascript</span>
-            </div>   
-          </div>
-          </div>
-
-          <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
-          <span className="text-base font-light mb-10">
-          Tools 
-          </span>
-          <div className="flex flex-col justify-start items-start space-y-10">
-            <div className="flex gap-3 justify-center items-center">
-              <Image width={32} height={32}  src="./../../icons/GitHub.svg" alt="" />
-              <span>Github</span>
-            </div>  
-          </div>
-          </div>
           </div>  
         </section>
       </div>
 
       <Footer />
 
-    </div>
-  </>
-    
+  </div>
+
   );
 }
