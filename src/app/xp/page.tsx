@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Footer from '../components/footer/Footer'
 
+
 const page = () => {
   return (
     
