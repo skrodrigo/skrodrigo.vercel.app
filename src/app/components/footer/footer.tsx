@@ -1,4 +1,4 @@
-const footer = () => {
+export default function Footer() {
   return (
     <div>        
       <footer className="flex items-center justify-center mb-3 mt-auto">
@@ -7,5 +7,3 @@ const footer = () => {
     </div>
   )
 }
-
-export default footer
