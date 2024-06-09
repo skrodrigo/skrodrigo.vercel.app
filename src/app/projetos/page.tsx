@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Footer from '../components/Footer/footer'
+import Footer from '../components/Footer/Footer'
 
 
 const page = () => {

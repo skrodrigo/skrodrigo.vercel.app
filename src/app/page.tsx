@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Footer from "./components/Footer/footer";
-
+import Footer from "./components/Footer/Footer";
 
 
 export default function Home() {
@@ -38,7 +37,7 @@ export default function Home() {
         
       <div className="flex justify-center items-center mx-auto xl:max-w-[1216px] lg:max-w-[912px]">
         <section className="flex flex-col lg:flex-row-reverse items-center text-center space-y-7 mt-16">
-          <img src="./../../foto.png" alt="Foto do Portfolio Rodrigo Carvalho" className="w-[192px] h-[195px] lg:w-[384px] lg:h-[390px]" />
+          <Image src="/foto.png" width={192} height={195} alt="Foto do Portfolio Rodrigo Carvalho" className="w-[192px] h-[195px] lg:w-[384px] lg:h-[390px]" />
           <div className="flex flex-col">
             <span className="font-semibold text-3xl lg:self-start lg:text-justify lg:text-5xl ">Olá, Eu sou <br />Rodrigo</span>
             <p className="text-justify lg:ml-0 mx-12 mt-7">Admirador de tecnologia e desenvolvimento Web. 
@@ -46,9 +45,11 @@ export default function Home() {
             Tenho buscado conhecimento e aprendizado com assiduidade para sempre entregar o melhor para meus trabalhos e projetos. 
             Estou a procura de novos desafios para enfrentar no mercado. </p>
             <div className="mt-9 space-y-3 flex flex-col lg:flex-row lg:justify-start items-center lg:space-x-8">
-              <button className="bg-white text-black rounded-3xl text-base font-bold px-6 py-3 w-44 h-11 lg:text-base">
-                Dowload CV  
-              </button> 
+              <a href="/cv-rodrigo.pdf" target="_blank" rel="noopener noreferrer">
+                <button className="bg-white text-black rounded-3xl text-base font-bold px-6 py-3 w-44 h-11 lg:text-base">
+                  Download CV
+                </button>
+              </a>
               <Link href='/xp' className="text-[#2563EB] underline text-base lg:ml-8">
                   Veja minha XP
               </Link>
@@ -123,7 +124,7 @@ export default function Home() {
         </section>
       </div>
 
-      <Footer />
+      <Footer/>
 
   </div>
 
