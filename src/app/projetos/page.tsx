@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Footer from '../components/Footer/Footer'
+
 
 
 const page = () => {
@@ -40,7 +40,6 @@ const page = () => {
         </div>
     </div>
       
-    <Footer />
 
     </div>
     
