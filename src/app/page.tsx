@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import Footer from './components/footer/Footer'
 
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
 
   <div className="min-h-screen flex flex-col justify-between">
 
-      <div className="md:mt-8 sticky top-2 z-20">
+    <div className="md:mt-8 sticky top-2 z-20">
             <header className='m-auto w-[320px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-85'>
             
                 <div className='flex justify-between items-center w-full h-full px-2'>
@@ -35,7 +35,7 @@ export default function Home() {
             </header>
       </div>
         
-      <div className="flex justify-center items-center mx-auto xl:max-w-[1216px] lg:max-w-[912px]">
+    <div className="flex justify-center items-center mx-auto xl:max-w-[1216px] lg:max-w-[912px]">
         <section className="flex flex-col lg:flex-row-reverse items-center text-center space-y-7 mt-16">
           <Image src="/foto.png" width={192} height={195} alt="Foto do Portfolio Rodrigo Carvalho" className="w-[192px] h-[195px] lg:w-[384px] lg:h-[390px]" />
           <div className="flex flex-col">
@@ -56,9 +56,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </div>
+    </div>
       
-      <div className="flex justify-center items-center mx-auto ">
+    <div className="flex justify-center items-center mx-auto ">
         <section className="flex flex-col items-center text-center mt-24 lg:mt-40">
           <span className="text-xl lg:text-3xl  font-light mb-16">Algumas tecnologias que<br />
           venho utilizando</span>
@@ -122,9 +122,9 @@ export default function Home() {
 
           </div>  
         </section>
-      </div>
+    </div>
 
-
+    <Footer />
 
   </div>
 
