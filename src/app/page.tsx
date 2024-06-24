@@ -16,7 +16,7 @@ export default function Home() {
             Tenho buscado conhecimento e aprendizado com assiduidade para sempre entregar o melhor para meus trabalhos e projetos. 
             Estou a procura de novos desafios para enfrentar no mercado. </p>
             <div className="mt-9 space-y-3 flex flex-col lg:flex-row lg:justify-start items-center lg:space-x-8">
-              <a href="/cv-rodrigo.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="bg-white text-black rounded-3xl text-base font-bold px-6 py-3 w-44 h-11 lg:text-base">
                   Download CV
                 </button>
