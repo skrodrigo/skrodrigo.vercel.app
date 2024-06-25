@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CardTech from "./components/cards/CardTech";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
   <div>
 
     <div className="flex justify-center items-center mx-auto xl:max-w-[1216px] lg:max-w-[912px]">
-        <section className="flex flex-col lg:flex-row-reverse items-center text-center space-y-7 mt-16">
+        <section className="flex flex-col lg:flex-row-reverse items-center text-center space-y-7 mt-16">n
           <Image src="/foto.png" width={192} height={195} alt="Foto do Portfolio Rodrigo Carvalho" className="w-[192px] h-[195px] lg:w-[384px] lg:h-[390px]" />
           <div className="flex flex-col">
             <span className="font-semibold text-3xl lg:self-start lg:text-justify lg:text-5xl ">Olá, Eu sou <br />Rodrigo</span>
@@ -35,61 +36,22 @@ export default function Home() {
           venho utilizando</span>
           <div className="lg:grid grid-cols-3 xl:gap-14 lg:gap-12">
 
-            <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
-                <span className="text-base font-light mb-10">
-                Front-End Engineer
-                </span>
-                <div className="flex flex-col justify-start items-start space-y-10">
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/React.svg" alt="" />
-                    <span>React JS</span>
-                  </div>  
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/Next.svg" alt="" />
-                    <span>Next JS</span>
-                  </div>  
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/Figma.svg" alt="" />
-                    <span>Figma</span>
-                  </div>  
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/Tailwind.svg" alt="" />
-                    <span>Tailwind CSS</span>
-                  </div>  
-                </div>
-            </div>
+            <CardTech title="Front-End Engineer" tech={[
+              { name: "React JS", svg: "./../../icons/React.svg" },
+              { name: "Next JS", svg: "./../../icons/Next.svg" },
+              { name: "Figma", svg: "./../../icons/Figma.svg" },
+              { name: "Tailwind CSS", svg: "./../../icons/Tailwind.svg" }
+            ]} />
 
-            <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
-                <span className="text-base font-light mb-10">
-                Back-End Engineer
-                </span>
-                <div className="flex flex-col justify-start items-start space-y-10">
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/Nest.svg" alt="" />
-                    <span>Nest JS</span>
-                  </div>  
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/Express.svg" alt="" />
-                    <span>Express JS</span>
-                  </div>  
-                  <div className="flex gap-3 justify-center items-center">
-                    <Image width={32} height={32}  src="./../../icons/Prisma.svg" alt="" />
-                    <span>Prisma</span>
-                  </div>  
-                </div>
-            </div>
+            <CardTech title="Back-End Engineer" tech={[
+              { name: "Nest JS", svg: "./../../icons/Nest.svg" },
+              { name: "Express JS", svg: "./../../icons/Express.svg" },
+              { name: "Prisma", svg: "./../../icons/Prisma.svg" }
+            ]} />
 
-            <div className="flex flex-col items-start justify-start border-2 mb-14 border-[#232323] rounded-3xl w-[300px] px-5 py-7">
-              <span className="text-base font-light mb-10">
-              Tools 
-              </span>
-              <div className="flex flex-col justify-start items-start space-y-10">
-                <div className="flex gap-3 justify-center items-center">
-                  <Image width={32} height={32}  src="./../../icons/GitHub.svg" alt="" />
-                  <span>Github</span>
-                </div>  
-              </div>
-            </div>
+            <CardTech title="Tools" tech={[
+              { name: "Github", svg: "./../../icons/GitHub.svg" }
+            ]} />
 
           </div>  
         </section>
