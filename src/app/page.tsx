@@ -8,7 +8,7 @@ export default function Home() {
   <div>
 
     <div className="flex justify-center items-center mx-auto xl:max-w-[1216px] lg:max-w-[912px]">
-        <section className="flex flex-col lg:flex-row-reverse items-center text-center space-y-7 mt-16">n
+        <section className="flex flex-col lg:flex-row-reverse items-center text-center space-y-7 mt-16">
           <Image src="/foto.png" width={192} height={195} alt="Foto do Portfolio Rodrigo Carvalho" className="w-[192px] h-[195px] lg:w-[384px] lg:h-[390px]" />
           <div className="flex flex-col">
             <span className="font-semibold text-3xl lg:self-start lg:text-justify lg:text-5xl ">Olá, Eu sou <br />Rodrigo</span>
