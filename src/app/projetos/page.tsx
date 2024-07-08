@@ -26,7 +26,6 @@ const projectsData = [
     description: "Projeto para criar um Micro Framework em SASS de um site Famoso. O escolhido foi: kirvano.",
     techs: "#sass #figma #html",
     links: [
-      { name: "", url: "" },
       { name: "Figma", url: "https://www.figma.com/design/HFtXws11QdYxa22pMm6kSL/Style--Guide?node-id=0-1&t=jW1COt0BJVd92OZm-1" },
       { name: "Código", url: "https://github.com/skrodrigo/design.system.kirvano" }
     ]
