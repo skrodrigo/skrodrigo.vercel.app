@@ -2,6 +2,14 @@ import CardProject from "../components/cards/CardProject";
 
 const projectsData = [
   {
+    title: "ToDo List API",
+    description: "Projeto Back End de uma API para uma toDo List, utilizando arquitetura MVC e seguindo os princípios básicos do SOLID. ",
+    techs: "#express #typescript #mvc-arquitecture #prisma #mysql",
+    links: [
+      { name: "Código", url: "https://github.com/skrodrigo/todo.api.mvc" }
+    ]
+  },
+  {
     title: "Cariri Tips",
     description: "Projeto Oficial para o site da CaririTips.",
     techs: "#Next.Js #Shadcn/ui #Typescript #ResponsiveDesign #tailwindCSS ",

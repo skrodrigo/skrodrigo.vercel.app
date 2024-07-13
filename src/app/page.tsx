@@ -23,7 +23,7 @@ export default function Home() {
                 </button>
               </a>
               <Link href='/xp' className="text-[#2563EB] underline text-base lg:ml-8">
-                  Veja minha XP
+                  Veja minhas Formações
               </Link>
             </div>
           </div>
@@ -32,8 +32,8 @@ export default function Home() {
       
     <div className="flex justify-center items-center mx-auto ">
         <section className="flex flex-col items-center text-center mt-24 lg:mt-40">
-          <span className="text-xl lg:text-3xl  font-light mb-16">Algumas tecnologias que<br />
-          venho utilizando</span>
+          <span className="text-2xl lg:text-4xl font-light mb-16">Algumas tecnologias que<br />
+          venho utilizando...</span>
           <div className="lg:grid grid-cols-3 xl:gap-14 lg:gap-12">
 
             <CardTech title="Front-End Engineer" tech={[

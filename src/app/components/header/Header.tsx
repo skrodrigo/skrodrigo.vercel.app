@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <div className="md:mt-8 sticky top-2 z-20">
-        <header className='m-auto w-[320px] md:w-[608px] h-[70px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-85'>
+        <header className='m-auto w-[320px] md:w-[600px] h-[60px] rounded-[30px] bg-[#131313] backdrop-blur bg-opacity-85'>
         
             <div className='flex justify-between items-center w-full h-full px-2'>
 
@@ -24,7 +24,7 @@ export default function Header() {
                         <Link href='/contatos' className={pathname === '/contatos' ? 'text-[#2563EB]' : ''}>Contato</Link>
                         </li>
                         <li>
-                        <Link href='/xp' className={pathname === '/xp' ? 'text-[#2563EB]' : ''}>XP/Educação</Link>
+                        <Link href='/xp' className={pathname === '/xp' ? 'text-[#2563EB]' : ''}>Formações</Link>
                         </li>
                     </ul>
                 </div>

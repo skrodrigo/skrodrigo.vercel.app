@@ -6,7 +6,7 @@ const page = () => {
     <div className="flex flex-col">
 
       <div className='flex flex-col items-center justify-center mt-12 space-y-8'>
-        <span className='text-5xl font-semibold md:text-6xl'>Contatos</span>
+        <span className='text-5xl font-semibold md:text-6xl'>Contato</span>
         <p className='text-center mx-5'>Se sinta a vontade para entrar em <b>contato</b> comigo, estou disponivel em
           todas as redes <b>socias</b>.  </p>
       </div>
